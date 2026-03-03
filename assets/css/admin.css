@@ -1,0 +1,21 @@
+#ai_chat_system_prompt,
+#ai_chat_rules,
+#ai_chat_site_context {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif !important;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.form-table th {
+    padding-top: 20px;
+}
+
+textarea.ai-auto-resize {
+    resize: none;
+    overflow-y: hidden;
+    min-height: 0 !important;
+    height: auto;
+    max-height: 260px;
+    box-sizing: border-box !important;
+    transition: height 0.1s ease;
+}
